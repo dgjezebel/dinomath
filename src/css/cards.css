@@ -1,0 +1,83 @@
+.cardsDiv{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+    min-height: 275px;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0);
+    border: solid 8px#3a3a3a;
+    background-color: #ffffff93;
+}
+.card:active{
+    border: 10px solid #000000;
+}
+.c0{
+    background-image: url('../Images/NumberImages/0.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.c1{
+    background-image: url('../Images/NumberImages/1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.c2{
+    background-image: url('../Images/NumberImages/2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c3{
+    background-image: url('../Images/NumberImages/3.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.c4{
+    background-image: url('../Images/NumberImages/4.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.c5{
+    background-image: url('../Images/NumberImages/5.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c6{
+    background-image: url('../Images/NumberImages/6.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c7{
+    background-image: url('../Images/NumberImages/7.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c8{
+    background-image: url('../Images/NumberImages/8.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c9{
+    background-image: url('../Images/NumberImages/9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.checkbox{
+    background-image: url('../Images/7600_3_10.jpg');
+}

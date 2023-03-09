@@ -1,0 +1,38 @@
+
+body{
+    background-image: url('../Images/backgroundgame.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    
+}
+.backbuttondiv{
+    margin: 0px;
+}
+.backbutton
+{background-image: url('../Images/backarrow.svg');
+    background-size: contain;
+    background-repeat:no-repeat;
+    margin: 10px;
+    height: 75px;
+    width: 200px;
+}
+.backbutton a{
+    color: rgba(0, 0, 0, 0);
+    font-size: 60px;
+}
+.nextbuttonDiv{
+    display: flex;
+    justify-content: center;
+    
+}
+.nextButton{
+    background-image: url('../Images/arrow.png');
+    border: none;
+    height: 170px;
+    width: 250px;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
