@@ -26,7 +26,7 @@ function GameComponent(){
         gameinfo=subData
     }
     return(
-        <>
+        <div className='gameboard'>
             <div className='backbuttondiv'>
                 <div className='backbutton'>
                     <Link 
@@ -52,7 +52,7 @@ function GameComponent(){
             <div className='nextbuttonDiv'>
                 <button className='nextButton' onClick={()=>changeEquation()}></button>
             </div>
-        </>
+        </div>
     )
 }
 export default GameComponent

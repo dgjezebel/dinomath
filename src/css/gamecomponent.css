@@ -1,10 +1,6 @@
+.gameboard{
 
-body{
-    background-image: url('../Images/backgroundgame.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-    
+    min-height: 100vh;
 }
 .backbuttondiv{
     margin: 0px;

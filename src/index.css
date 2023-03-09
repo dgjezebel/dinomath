@@ -1,5 +1,9 @@
 body {
-  
+  background-image: url('./Images/backgroundgame.png') ;
+  background-size:cover; 
+  background-position: center;
+  background-repeat:no-repeat;
+  min-height: 100%;
   margin: 0;
   font-family: 'Caveat Brush', cursive;
   -webkit-font-smoothing: antialiased;
